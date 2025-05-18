@@ -1,0 +1,33 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("Hello. My name is John. What's your name?")
+Hello.
+<BLANKLINE>
+ My name is John.
+<BLANKLINE>
+ What's your name?
+<BLANKLINE>
+
+>>> text_indentation("Python is fun: clean and simple.")
+Python is fun:
+<BLANKLINE>
+ clean and simple.
+<BLANKLINE>
+
+>>> text_indentation("One?Two.Three:Four.")
+One?
+<BLANKLINE>
+Two.
+<BLANKLINE>
+Three:
+<BLANKLINE>
+Four.
+<BLANKLINE>
+
+>>> text_indentation("")
+<BLANKLINE>
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
