@@ -1,5 +1,4 @@
-
-1;95;0c#!/usr/bin/python3
+#!/usr/bin/python3
 """Module that divides all elements of a matrix by a number."""
 
 
