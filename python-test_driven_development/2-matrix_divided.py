@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+
+1;95;0c#!/usr/bin/python3
 """Module that divides all elements of a matrix by a number."""
 
 
@@ -8,7 +9,8 @@ def matrix_divided(matrix, div):
     Returns a new matrix with results rounded to 2 decimal places.
     """
     err = "matrix must be a matrix (list of lists) of integers/floats"
-    if not isinstance(matrix, list) or not all(isinstance(row, list) for row in matrix):
+    if not isinstance(matrix, list) or
+    not all(isinstance(row, list) for row in matrix):
         raise TypeError(err)
 
     if not all(
