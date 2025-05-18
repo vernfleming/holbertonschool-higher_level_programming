@@ -12,4 +12,3 @@ elif num_args == 1:
     print(f"1: {sys.argv[1]}")
 else:
     print(f"{num_args} arguments.")
-    
