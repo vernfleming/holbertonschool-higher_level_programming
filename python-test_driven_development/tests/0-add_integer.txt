@@ -1,5 +1,5 @@
-This module provides a function for adding two integers or floats.
-
+>>> from 0-add_integer import add_integer
+>>> add_integer = mod.add_integer
 >>> add_integer(1, 2)
 3
 >>> add_integer(100, -2)
