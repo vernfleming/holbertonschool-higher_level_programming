@@ -61,7 +61,7 @@ class Rectangle:
         """Returns a string representation using `print_symbol`.
 
         Returns:
-            str: The visual rectangle or an empty string if 
+            str: The visual rectangle or an empty string if
         """
         if self.__width == 0 or self.__height == 0:
             return ""
