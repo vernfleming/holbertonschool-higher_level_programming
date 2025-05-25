@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a class Rectangle with printable and reproducible string representation."""
+"""Defines a class Rectangle with printable and
+reproducible string representation."""
 
 
 class Rectangle:
@@ -49,7 +50,8 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Returns a string representation of the rectangle with '#' characters."""
+        """Returns a string representation of the
+        rectangle with '#' characters."""
         if self.__width == 0 or self.__height == 0:
             return ""
         return "\n".join(["#" * self.__width for _ in range(self.__height)])
