@@ -1,5 +1,4 @@
-
-1;95;0c#!/usr/bin/python3
+#!/usr/bin/python3
 """Defines a class Rectangle with customizable print symbol."""
 
 
