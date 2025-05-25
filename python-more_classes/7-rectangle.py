@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+
+1;95;0c#!/usr/bin/python3
 """Defines a class Rectangle with customizable print symbol."""
 
 
@@ -61,7 +62,7 @@ class Rectangle:
         """Returns a string representation using `print_symbol`.
 
         Returns:
-            str: The visual rectangle or an empty string if width or height is 0.
+            str: The visual rectangle or an empty string if 
         """
         if self.__width == 0 or self.__height == 0:
             return ""
