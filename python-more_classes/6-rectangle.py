@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Defines a class Rectangle that tracks the number of instances."""
+"""Defines a class Rectangle that tracks number of instances."""
 
 
 class Rectangle:
     """Represents a rectangle.
 
     Class Attributes:
-        number_of_instances (int): Counts the number of Rectangle instances.
+        number_of_instances (int): Counts the number of Rectangles
     """
 
     number_of_instances = 0
@@ -56,16 +56,16 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Returns a string representation of the rectangle with '#' characters."""
+        """Returns a string of the rectangle with '#' characters."""
         if self.__width == 0 or self.__height == 0:
             return ""
         return "\n".join(["#" * self.__width for _ in range(self.__height)])
 
     def __repr__(self):
-        """Returns a reproducible string representation of the rectangle."""
+        """Returns a reproducible string of the rectangle."""
         return f"Rectangle({self.__width}, {self.__height})"
 
     def __del__(self):
-        """Prints a message when the rectangle is deleted and decrements count."""
+        """Prints a message when rectangle is deleted and drops count."""
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
