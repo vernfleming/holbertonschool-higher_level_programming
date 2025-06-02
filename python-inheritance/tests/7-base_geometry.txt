@@ -83,3 +83,5 @@ True
 # Confirm attributes
 >>> print(dir(bg))  # doctest: +ELLIPSIS
 [...]
+>>> bg.integer_validator("myint", 12)
+>>> bg.integer_validator("age", 1)
